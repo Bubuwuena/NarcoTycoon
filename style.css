@@ -1,32 +1,54 @@
-.contenedor {
-	
+html {
+	background: url(fons.jpg) no-repeat fixed center;
+        -webkit-background-size: cover;
+   	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: Helvetica;
+	font-size: 10px;
+	color: #A0A0A0;
+ }
+
+#mostra {
+
 	position: fixed;
-	background-color: white;
+	height: 40px;
+	width: 5px;
+	top: 22px;
+	left: 10px;
+	background-color: #A0A0A0;
+}
+
+#mostra1 {
+	position: fixed;
+	top: 70px;
+	left: 20px;
+	height: 40px;
+	width: 190px;
+	background-color: #1B1D1E;
+	border-style:solid;
+	border-color: #A0A0A0;
+	border-width:1px;
+}
+
+.contenedor {
+	position: inherit;	
+	background-color: #1B1D1E;
 	text-align: center;
 	width: 40px;
 	height: 40px;
 
 	border-style: solid;
-	border-color: black;
+	border-color: #A0A0A0;
 	border-width: 2px;
 	border-radius: 5px;
-
-	top:10px;
+	
 } 
 
 .contenedor:hover {
-	
+
+	width: 45px;
+	height: 45px;
 	border-color: red;
-}
-
-#mostra {
-
-	position: fixed;
-	top: 11px;
-	left: 2px;
-	width: 6px;
-	height: 6px;
-	background-color: green;
-	border-radius: 2px;
 
 }
